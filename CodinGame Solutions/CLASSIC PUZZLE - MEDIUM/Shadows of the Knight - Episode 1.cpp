@@ -30,7 +30,7 @@ int main()
 
         // Write an action using cout. DON'T FORGET THE "<< endl"
         // To debug: cerr << "Debug messages..." << endl;
-        for(int i=0;i<bombDir.size();i++){
+        for(int i=0; i<bombDir.size(); i++){
             if(bombDir[i] == 'U'){
                 maxY = Y0 - 1;
             }
